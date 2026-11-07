@@ -8,8 +8,8 @@ The application source is maintained separately in a private repository.
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
 and run `WNARaven.exe`. Keep the DLLs and `data` folder together with the executable.
-No GitHub account is required. Until the first release is published, the release
-list is empty.
+No GitHub account is required. [Latest release](https://github.com/NostawMul/WNARaven-Releases/releases/latest)
+includes the Windows ZIP, full changelog, SHA-256 checksum and updater metadata.
 
 ## In-app updates
 
@@ -21,7 +21,8 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of an updater-enabled release first.
+need one manual installation of version 0.6.0 or later first. Future releases,
+starting with 0.6.1, can then use the in-app updater.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
