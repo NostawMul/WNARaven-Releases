@@ -21,8 +21,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Future releases,
-starting with 0.6.1, can then use the in-app updater.
+need one manual installation of version 0.6.0 or later first. Version 0.6.1 is available through the in-app updater for 0.6.0 users.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
