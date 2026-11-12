@@ -5,9 +5,9 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.2.0 adds separate settings gears, a settings-only character panel,
-full action-name tooltips and saved Auto Path / Realm of Time presets under
-Run Once. Realm of Time inventory-token use defaults off.
+Version 1.2.1 improves Gallery farming recovery and error reports, fixes a Realm
+of Time Stop race, and corrects missing character metadata in nested game windows.
+Use Copy status for remaining plan-switch or event-return issues.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -25,7 +25,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.2.0 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.2.1 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
