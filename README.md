@@ -5,9 +5,10 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.2.1 improves Gallery farming recovery and error reports, fixes a Realm
-of Time Stop race, and corrects missing character metadata in nested game windows.
-Use Copy status for remaining plan-switch or event-return issues.
+Version 1.2.2 fixes saved DEF, HP and MP Gallery plans failing to start and a Realm
+of Time empty-team detection error that could leave Start/Stop stuck. It adds
+clearer validation and membership errors while preserving saved plans and cleanup
+protection for unconfirmed requests. Use Copy status when reporting an issue.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
