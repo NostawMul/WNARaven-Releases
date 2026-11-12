@@ -5,10 +5,11 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.2.2 fixes saved DEF, HP and MP Gallery plans failing to start and a Realm
-of Time empty-team detection error that could leave Start/Stop stuck. It adds
-clearer validation and membership errors while preserving saved plans and cleanup
-protection for unconfirmed requests. Use Copy status when reporting an issue.
+Version 1.2.3 adds per-character Dailies, configurable hourly Arena timing (default
+:37), private/timed/full-team Realm of Time recruitment and optional automatic
+party-loot rolls. Invade return cleanup and Escort status are improved. Confirmed
+character/account deletion lets you re-add profiles with fresh settings. Use Copy
+status when reporting an issue; live event feedback is welcome.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -26,7 +27,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.2.1 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.2.3 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
