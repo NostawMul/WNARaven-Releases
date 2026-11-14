@@ -5,12 +5,13 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.2.5 adds more tolerant manual Gallery/Idle detours, shared Idle boss CP
-limits, local farming-team policies, twenty new ink portraits, Peak popularity
-likes in Dailies and a separate Plunder action. It improves Gallery freshness,
-refining diagnostics/protected-item skips, Demon entry handling and reconnect
-recognition of confirmed graphics-context loss. Unknown commands still retain
-review safeguards; new event and overnight behavior needs live feedback.
+Version 1.2.6 adds Gift Codes for all running characters across saved accounts,
+optional mail-attachment collection (off by default), and RoT cleanup fixes.
+Same-map Pack/menu browsing no longer pauses farming. Reconnect handles transient
+health-read failures; Demon has clearer priority and bounded entry retries.
+Plunder uses the native Give up action, with improved copyable diagnostics.
+Unknown commands retain review safeguards. Live mine exits, mail and native-event
+behavior still need tester feedback.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -28,7 +29,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.2.5 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.2.6 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
