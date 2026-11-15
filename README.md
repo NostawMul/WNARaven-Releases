@@ -5,13 +5,13 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.2.6 adds Gift Codes for all running characters across saved accounts,
-optional mail-attachment collection (off by default), and RoT cleanup fixes.
-Same-map Pack/menu browsing no longer pauses farming. Reconnect handles transient
-health-read failures; Demon has clearer priority and bounded entry retries.
-Plunder uses the native Give up action, with improved copyable diagnostics.
-Unknown commands retain review safeguards. Live mine exits, mail and native-event
-behavior still need tester feedback.
+Version 1.3.0 adds an interactive Realm route planner with draggable waypoints,
+energy/resource estimates, building-upgrade breakpoints, multiple named weekly
+plans and independent shared-template copies. Review game readings or enter
+corrections as you progress. Realm movement and upgrades remain manual.
+Startup metadata retries improve resilience to brief browser stalls; emulator
+password-save prompts are suppressed, and Gallery has a verified native-hosting
+return-field fix with clearer diagnostics. Unknown cleanup keeps review safeguards.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -29,7 +29,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.2.6 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.3.0 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
