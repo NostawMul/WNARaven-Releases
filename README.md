@@ -5,13 +5,13 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.3.0 adds an interactive Realm route planner with draggable waypoints,
-energy/resource estimates, building-upgrade breakpoints, multiple named weekly
-plans and independent shared-template copies. Review game readings or enter
-corrections as you progress. Realm movement and upgrades remain manual.
-Startup metadata retries improve resilience to brief browser stalls; emulator
-password-save prompts are suppressed, and Gallery has a verified native-hosting
-return-field fix with clearer diagnostics. Unknown cleanup keeps review safeguards.
+Version 1.3.1 improves Gallery progress recovery, RoT party departure and final
+3v3 completion. Arena checks every three server hours at your saved minute and
+yields to events/one-time runs. Native hosting keeps reports/settings while
+WNARaven owns boss movement during Idle/Gallery. Clearer refining instructions,
+updater failure stages and rendering/timer diagnostics help with troubleshooting.
+Overnight/native event feedback remains welcome; the black-window cause is still
+under investigation. Includes the weekly Realm planner introduced in1.3.0.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
