@@ -5,13 +5,11 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.3.1 improves Gallery progress recovery, RoT party departure and final
-3v3 completion. Arena checks every three server hours at your saved minute and
-yields to events/one-time runs. Native hosting keeps reports/settings while
-WNARaven owns boss movement during Idle/Gallery. Clearer refining instructions,
-updater failure stages and rendering/timer diagnostics help with troubleshooting.
-Overnight/native event feedback remains welcome; the black-window cause is still
-under investigation. Includes the weekly Realm planner introduced in1.3.0.
+Version 1.4.0 moves Six Realm Maze into Run Once, adds all seven named realms,
+and cleans up its created team on Stop, exit or completion. RoT displays per-boss
+map-entry CP, and Path reports cleanup timing more accurately. Includes the weekly
+Realm planner and prior Gallery/Idle/recovery improvements. Native Maze and
+long-running feedback remains welcome; please copy diagnostics before restarting.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -29,7 +27,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.3.0 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.4.0 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
