@@ -5,11 +5,12 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.4.0 moves Six Realm Maze into Run Once, adds all seven named realms,
-and cleans up its created team on Stop, exit or completion. RoT displays per-boss
-map-entry CP, and Path reports cleanup timing more accurately. Includes the weekly
-Realm planner and prior Gallery/Idle/recovery improvements. Native Maze and
-long-running feedback remains welcome; please copy diagnostics before restarting.
+Version 1.4.1 improves weekly Realm planning: select saved character routes,
+copy them independently, and replan from reviewed current progress without
+repeating cleared objectives. Maze waits for slow scene transitions and provides
+clearer loading diagnostics. Includes an emulator-only Windows display mitigation
+and retained overnight/Gallery diagnostics. Native Maze and monitor-off feedback
+remains welcome; copy status before restarting if anything gets stuck.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -27,7 +28,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.4.0 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.4.1 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
