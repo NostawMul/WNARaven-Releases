@@ -5,14 +5,13 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.5.0 adds **per-character Ghost mode**: run selected characters without
-a visible game window while others stay visible. Normal mode is the default;
-enable Ghost under Character settings → Character & emulator or Settings →
-Emulator performance. Applies on the next Start, startup launch or reconnect.
-Includes background-activity protection, controlled stalled-game recovery and
-improved diagnostics. The separately provisioned admin chat relay can catch up
-15 minutes of retained messages. Overnight and resource-savings feedback remains
-welcome; this is not a guarantee against every GPU/Windows black-screen cause.
+Version 1.5.1 improves **Demon cleanup/reset checks** and **Six Realm Maze room
+detection**. Refining can combine maximum All Skill, minimum stat rows and an
+explicit skill pool. Reconnect reports clearer startup failures and safely retries
+confirmed temporary pre-entry API failures within the configured wait and budget.
+Gallery departure diagnostics help investigate unexplained returns. Native event
+feedback remains welcome; unknown HTTP400 and town-return causes are still under
+investigation. Per-character Ghost mode and other existing features remain available.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -30,7 +29,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.5.0 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.5.1 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
