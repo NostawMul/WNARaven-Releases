@@ -5,13 +5,15 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.5.1 improves **Demon cleanup/reset checks** and **Six Realm Maze room
-detection**. Refining can combine maximum All Skill, minimum stat rows and an
-explicit skill pool. Reconnect reports clearer startup failures and safely retries
-confirmed temporary pre-entry API failures within the configured wait and budget.
-Gallery departure diagnostics help investigate unexplained returns. Native event
-feedback remains welcome; unknown HTTP400 and town-return causes are still under
-investigation. Per-character Ghost mode and other existing features remain available.
+Version 1.5.2 adds **recovery for persistent unknown health** after gameplay,
+respecting the configured reconnect wait and existing retry budget. It corrects
+activity-guard/wake targeting for separate game iframes. **Refining's per-item
+stone limit is now a hard cap**, including existing spent stones and the next
+roll's full cost. Completed goals are kept; unfinished gear is safely recycled
+only when already eligible, otherwise kept/skipped with its original item lock
+restored. Skill-pool reports and All Skill-first instructions are clearer.
+Overnight and live refining feedback remain welcome. Per-character Ghost mode
+and other existing features remain available.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -29,7 +31,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.5.1 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.5.2 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
