@@ -5,15 +5,14 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.5.2 adds **recovery for persistent unknown health** after gameplay,
-respecting the configured reconnect wait and existing retry budget. It corrects
-activity-guard/wake targeting for separate game iframes. **Refining's per-item
-stone limit is now a hard cap**, including existing spent stones and the next
-roll's full cost. Completed goals are kept; unfinished gear is safely recycled
-only when already eligible, otherwise kept/skipped with its original item lock
-restored. Skill-pool reports and All Skill-first instructions are clearer.
-Overnight and live refining feedback remain welcome. Per-character Ghost mode
-and other existing features remain available.
+Version 1.5.3 fixes **false reconnect restarts during Refining or other crowded
+game screens**. Recent server packets and current engine ticks preserve active
+gameplay when a bounded UI scan is incomplete. Copy reconnect status now includes
+scan limits and the evidence behind the last automatic restart. **Reset Demon
+attempts** target 15, 25, 45, 55, 65 and 75 seconds after midnight, stopping on
+confirmed entry and allowing farming between confirmed refusals. Phone-login
+waits, real failure recovery and normal-wave limits remain. Native overnight and
+reset feedback are welcome. Ghost mode and existing features remain available.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -31,7 +30,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.5.2 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.5.3 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
