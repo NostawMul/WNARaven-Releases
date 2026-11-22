@@ -5,14 +5,11 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.5.3 fixes **false reconnect restarts during Refining or other crowded
-game screens**. Recent server packets and current engine ticks preserve active
-gameplay when a bounded UI scan is incomplete. Copy reconnect status now includes
-scan limits and the evidence behind the last automatic restart. **Reset Demon
-attempts** target 15, 25, 45, 55, 65 and 75 seconds after midnight, stopping on
-confirmed entry and allowing farming between confirmed refusals. Phone-login
-waits, real failure recovery and normal-wave limits remain. Native overnight and
-reset feedback are welcome. Ghost mode and existing features remain available.
+Version 1.6.0 fixes false reconnect restarts during active scene transitions.
+**Gallery Farm** can suggest tiers by remaining kills across all stats.
+**Smart Recycle** adds an opt-in range for other-class Legendary gear.
+**Refining** protects unfinished capped gear and checks the next roll against
+resource reserves. **Auto Forest (Beta)** runs one pass without using reset items.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -30,7 +27,7 @@ option applies to future updates and closes active game sessions before updating
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.5.3 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.6.0 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
