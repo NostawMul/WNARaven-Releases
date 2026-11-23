@@ -5,13 +5,10 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.6.2 adds **Roll back to a previous version** under Check for updates
-and a cancellable restart prompt for verified downloads. It also introduces
-**Activity skill profiles** under Character settings.
-Choose individual automatic skills for supported activities and configure weekly
-server-time profile windows for Peak, Cross-server Peak and Grand Tournament.
-**Auto Forest** moves to Run Once with class-aware buff selection. The update
-also improves Invade cleanup, Adventure Boss timing and Star Domain diagnostics.
+Version 1.6.3 moves **Star Domain** out of Beta and gives **Run Once** a
+full-width section above Info. The Star Domain settings show each Lord's debuff,
+availability, and respawn countdown. The leader can opt to exit and skip a
+boss when another party is detected after entry.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -31,7 +28,7 @@ future updates** shows a confirmation when a verified update is ready. Choose
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.6.2 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.6.3 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
