@@ -5,11 +5,13 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.6.0 fixes false reconnect restarts during active scene transitions.
-**Gallery Farm** can suggest tiers by remaining kills across all stats.
-**Smart Recycle** adds an opt-in range for other-class Legendary gear.
-**Refining** protects unfinished capped gear and checks the next roll against
-resource reserves. **Auto Forest (Beta)** runs one pass without using reset items.
+Version 1.6.2 adds **Roll back to a previous version** under Check for updates
+and a cancellable restart prompt for verified downloads. It also introduces
+**Activity skill profiles** under Character settings.
+Choose individual automatic skills for supported activities and configure weekly
+server-time profile windows for Peak, Cross-server Peak and Grand Tournament.
+**Auto Forest** moves to Run Once with class-aware buff selection. The update
+also improves Invade cleanup, Adventure Boss timing and Star Domain diagnostics.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -22,12 +24,14 @@ includes the Windows ZIP, full changelog, SHA-256 checksum and updater metadata.
 Updater-enabled builds check once a day while open. Use **Extra → Check for
 updates** to check sooner. When a newer version is found, the label changes to
 **Update WNARaven** with an indicator. The app downloads and verifies the full
-Windows bundle, then offers a restart to install it. The saved automatic-restart
-option applies to future updates and closes active game sessions before updating.
+Windows bundle, then offers a restart to install it. **Prompt to restart after
+future updates** shows a confirmation when a verified update is ready. Choose
+**Later** to keep sessions running. To downgrade, select a dated release under
+**Roll back to a previous version**, verify the download, then confirm the restart.
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.6.0 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.6.2 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
