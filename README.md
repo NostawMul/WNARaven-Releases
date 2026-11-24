@@ -5,8 +5,8 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.6.4 checks local **Star Domain** teammates before creating a room and
-fixes **Auto Forest** stopping after the game confirms a blessing choice.
+Version 1.6.5 lets **Auto Forest** continue when no offered blessing improves
+your build and refreshes the in-app **Guide** and contextual help.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
@@ -26,7 +26,7 @@ future updates** shows a confirmation when a verified update is ready. Choose
 
 Saved accounts, settings and Gallery plans stay in the separate application data
 directory. Normal Auto launch settings apply after restart. Existing older builds
-need one manual installation of version 0.6.0 or later first. Version 1.6.4 is available through the in-app updater for users on 0.6.0 or later.
+need one manual installation of version 0.6.0 or later first. Version 1.6.5 is available through the in-app updater for users on 0.6.0 or later.
 
 Release assets contain the Windows bundle and `update.json`; this repository does
 not require or distribute GitHub credentials or WNARaven account data.
