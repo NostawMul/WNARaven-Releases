@@ -5,8 +5,8 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.7.3 improves the private **Auction House** relay with clearer loot
-names and groups, Demon boss numbers and waves, and an estimated bidding cutoff.
+Version 1.7.5 adds a **Count eligible items** button for Refining, improves
+All Skill-first saves, and records observed Samsara XP consumption and levels lost.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
