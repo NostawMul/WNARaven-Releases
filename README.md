@@ -5,9 +5,8 @@ The application source is maintained separately in a private repository.
 
 ## Download
 
-Version 1.7.0 introduces **Quick Gallery Farm**, with an account dashboard and
-guided setup alongside the Advanced planner. It also includes Auto Forest,
-Smart Recycle and Refining improvements.
+Version 1.7.3 improves the private **Auction House** relay with clearer loot
+names and groups, Demon boss numbers and waves, and an estimated bidding cutoff.
 
 Open [Releases](https://github.com/NostawMul/WNARaven-Releases/releases) and download
 the `WNARaven-…-windows-x64.zip` asset. Extract the complete ZIP into its own folder
